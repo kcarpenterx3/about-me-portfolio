@@ -34,7 +34,7 @@ p {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 140px 20px;
 }
 
 .hero p {
@@ -48,6 +48,28 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+.about-section-container {
+  padding: 140px 20px;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--primary-heading-font);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section img {
+  display: block;
 }
 
 .btn-branding {
