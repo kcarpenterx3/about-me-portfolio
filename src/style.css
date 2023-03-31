@@ -31,6 +31,10 @@ p {
   line-height: 30px;
 }
 
+.nav-link a {
+  color: var(--secondary-color)
+}
+
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -49,6 +53,7 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
+
 .about-section-container {
   padding: 140px 20px;
   text-align: center;
@@ -103,9 +108,11 @@ p {
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
+  font-weight: bolder;
   font-size: 15px;
   line-height: 27px;
   padding: 12px 20px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
@@ -125,16 +132,18 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-      font-size: 44px;
-    }
-  
-    h2 {
-      font-size: 44px;
-    }
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
+
   .hero {
     padding: 80px 20px;
   }
