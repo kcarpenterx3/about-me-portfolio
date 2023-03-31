@@ -64,12 +64,39 @@ p {
   font-family: var(--primary-heading-font);
 }
 
-.about-section-content {
+.about-section-content p {
+  font-size: 14px;
   margin: 30px;
 }
 
-.about-section img {
-  display: block;
+.content-container {
+  padding: 140px 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--primary-heading-font);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--primary-heading-font);
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
 }
 
 .btn-branding {
